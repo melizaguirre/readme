@@ -46,3 +46,30 @@ if (cond == true) {
   console.log('La variable cond es false');
 }
 
+BAD CODE
+var n = 100;
+
+si (n == 100) {
+  console.log('¡Este es un número especial!') ;
+}
+if (n < 1000) {
+  console.log('');
+} else {
+  console.log('Solo un número normal');
+}
+if (n % 10 == 0) {
+  console.log('Este número es múltiplo de 10');
+}
+GOOD CODE 
+var n = 100;
+
+if (n == 100) {
+  console.log('¡Este es un número especial!') ;
+}
+if (n < 1000 && n % 10 == 0) {
+  console.log('Este es un numero especial');
+} 
+  else {
+  console.log('Solo un número normal');
+}
+
