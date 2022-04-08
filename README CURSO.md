@@ -28,7 +28,14 @@ Fecha de nacimiento: 2002
 =11111010010
 
 WEEK #1 JUEVES
-2. Bad code
+1. En este ejercicio debes usar un control de flujo iterativo para poder imprimir todos los números pares en el rango de números de 0 a 100. Recuerda que no debes imprimir cada número, debes usar una estructura de control de flujo para realizar el ejercicio
+
+for (i=1; i <=100; i++){
+if (i % 2 == 0)
+console.log(i);
+]
+
+3. Bad code
 var cond = falso;
 
 if ((cond = true)) {
@@ -46,7 +53,7 @@ if (cond == true) {
   console.log('La variable cond es false');
 }
 
-BAD CODE
+3.BAD CODE
 var n = 100;
 
 si (n == 100) {
