@@ -11,7 +11,7 @@ BTC <-- dls*0.000022;
 PRINT("EL VALOR DE DOLARES A BITCOINS ES: " + BTC);
 END
 
-WEEK #2
+WEEK #1 MIERCOLES
 traducir tu fecha de nacimiento a binario
 Fecha de nacimiento: 2002
 2002 / 2 = 1001 -> 0
@@ -26,4 +26,23 @@ Fecha de nacimiento: 2002
 3/2 = 1 -> 1
 =1
 =11111010010
+
+WEEK #1 JUEVES
+2. Bad code
+var cond = falso;
+
+if ((cond = true)) {
+  console.log('La variable cond es verdadera');
+} else {
+  console.log('La variable cond es false');
+}
+
+Good code
+var cond = falso;
+
+if (cond == true) {
+  console.log('La variable cond es verdadera');
+} else {
+  console.log('La variable cond es false');
+}
 
